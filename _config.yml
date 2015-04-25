@@ -1,0 +1,102 @@
+##### 菜单
+menu:
+  主頁: /
+  文章列表: /archives
+  關於本人: /about
+
+#### 控件
+widgets: 
+- category
+- tag
+- links
+- rss
+
+#### RSS 
+rss: /atom.xml 
+
+#### 图片相关
+imglogo:
+  enable: false               ## 是否显示网站 logo
+  src: img/logo.png        
+favicon: img/favicon.ico     ## 网站图标    
+apple_icon: img/author.jpg   ## 苹果设备上的图标，背景不要透明
+author_img: img/author.jpg   ## 网站底部的博主头像
+#banner_img: img/banner.jpg   ## 博客顶部的图片
+
+### 主题颜色
+theme_color:
+    theme: '#2c3e50'    ##默认主题颜色为深蓝色
+
+close_aside: true      ##是否在文章页面自动关闭侧边栏
+
+#### 首页相关
+index:
+  expand: false              ## 首页文章是否展开。默认为展开式，显示 Read More。
+  excerpt_link: Read More    
+
+#### 作者信息
+author:
+  intro_line1:  "充滿好奇心，享受獨立解決問題的過程"    ## 网站底部的个人介绍
+  intro_line2:  "追求正直，嚮往自由"  
+  weibo_verifier:  ## 微博秀的验证码
+  tsina: 9e768382  ## 用于微博秀和微博分享
+  weibo: scaushinichi  ## 用于显示网站底部社交按钮，下同
+  douban:         
+  zhihu: sasuke-uchiha-40
+  email: sasuke688848@gmail.com    
+  twitter:   
+  github: SASUKE40    
+  facebook: 
+  linkedin:   
+  google_plus:   
+  stackoverflow:  
+
+
+#### 目录
+toc:
+  article: true   ## 是否在文章中显示目录
+  aside: true     ## 是否在侧边栏显示目录
+
+#### 友情链接
+links:
+  荔枝FM: http://www.lizhi.fm,人人都是播客
+  知乎: http://www.zhihu.com
+  
+#### 评论
+duoshuo_shortname: sasuke40
+disqus_shortname:  
+
+#### 分享按钮
+jiathis:
+  enable: false   ## 默认使用主题内建分享
+  id:    
+  tsina: 
+  
+#### 网站统计
+google_analytics:
+  enable: false
+  id:            ## google analytics ID.
+  site:          ## 网站地址.
+baidu_tongji:
+  enable: false
+  sitecode: 48c533efe124a71c7b7ff7c90daf26f3     ## 百度统计站点特征码
+cnzz_tongji:
+  enable: false
+  siteid:        ## CNZZ统计站点ID
+
+#### 杂项
+ShowCustomFont: false  
+fancybox: true        
+totop: true           
+
+#### 自定义搜索
+google_cse: 
+  enable: false
+  cx:  
+baidu_search:    
+  enable: false
+  id:   
+  site: http://zhannei.baidu.com/cse/search 
+tinysou_search:     ## http://tinysou.com/
+  enable: false
+  id: "0720c6639c4bc90aee83"
